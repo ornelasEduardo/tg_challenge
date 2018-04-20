@@ -1,0 +1,32 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#auth-btn_group button {
+  width: 100px;
+  font-size: 14px;
+}
+
+.brand-text {
+  color: #9f3841;
+}
+
+.brand-bg {
+  background-color: #9f3841;
+}
+
+.brand-secondary_bg {
+  background-color: #233a6b;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.cursor-wait {
+  cursor: wait !important;
+}
