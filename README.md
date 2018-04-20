@@ -9,3 +9,13 @@ This is a project built to solve the Tech Gap Solutions challenge. It is an SPA 
 <p>
 If credentials are successfully given, the application will make a fetch request to the provided url and endpoints. If the credentials were correct, we should get a response with an Auth token which we'll exchange for profile information. We'll then switch views to a very simplified profile page where the user profile is a card. 
 </p>
+
+<p>
+The solution is written in pure HTML, CSS, and JS. A JQuery solution is included, but commented out, to show the alternative to the Fetch API solution given. Libraries used include
+
+  <ul>
+    <li>JQuery</li>
+    <li>Sweet Alerts</li>
+    <li>Bootstrap 4.1</li>
+  </ul>
+</p>
