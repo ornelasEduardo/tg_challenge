@@ -15,12 +15,12 @@ function getLogin() {
         <input id='auth-password' class='form-control' type="password" />
       </div>
 
-      <div class='d-flex justify-content-between mt-3'>
-        <div class='d-flex align-items-center'>
-          <input id='in-remember_me' class='' type="checkbox" style='width: 25px; height: 25px;'>
-          <label class='mb-0 font-12' for='in-remember_me'>Remember Me</label>
+      <div class='d-flex justify-content-between align-items-center mt-3'>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="auth-remember_me">
+          <label class="custom-control-label font-12" for="auth-remember_me">Remember Me</label>
         </div>
-        <a class='font-12' href='#'>Forgot Password</a>
+        <a class='font-12 mt-2' href='#'>Forgot Password</a>
       </div>
 
       <div id='auth-btn_group' class='mt-4'>
